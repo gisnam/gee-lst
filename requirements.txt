@@ -1,0 +1,5 @@
+geopandas
+Shapely
+streamlit
+geemap
+streamlit-folium
