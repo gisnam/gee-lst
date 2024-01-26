@@ -20,7 +20,7 @@ ut.initialize_sessionState()
 
 with row1_col1:
     # INITIALIZE MAP
-    m = geemap.Map(plugin_Draw=True, draw_export=True, add_google_map=False)
+    m = geemap.Map(plugin_Draw=True, draw_export=True, add_google_map=True)
     # m.setCenter(76,22, st.session_state.zoom_level)
     m.add_basemap("HYBRID")
 
